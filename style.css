@@ -1,0 +1,43 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: coral;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+  border: 10px dotted white;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+}
